@@ -1,0 +1,7 @@
+{
+  "name": "AI Refrigerator Chef",
+  "description": "Snap photos of your fridge and let AI suggest a gourmet recipe based on your ingredients. A clean, Nordic-modern kitchen companion.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
