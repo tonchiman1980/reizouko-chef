@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI冷蔵庫シェフ</title>
     
-    <!-- iPhone/iPad ホーム画面用アイコンの設定 -->
+    <!-- iPhone/iPad ホーム画面用アイコン -->
     <link rel="apple-touch-icon" href="icon.png">
-    <!-- Android/Chrome用アイコンの設定 -->
     <link rel="icon" type="image/png" href="icon.png">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -26,11 +25,11 @@
 <script type="importmap">
 {
   "imports": {
-    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
-    "react/": "https://esm.sh/react@^19.2.3/",
     "react": "https://esm.sh/react@^19.2.3",
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
     "vite": "https://esm.sh/vite@^7.3.1",
     "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
   }
@@ -39,7 +38,6 @@
 </head>
 <body class="bg-emerald-50 text-slate-800">
     <div id="root"></div>
-    <!-- ↓ここが重要！プログラムを読み込む命令を追加しました -->
-    <script type="module" src="./index.tsx"></script>
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
